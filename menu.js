@@ -1,30 +1,26 @@
 const help = (p, date, user, wame) => {
 return `
 ╭━━━━━━━━━━━━━━━━━━━╮
-┃☄️✨𝑩𝑹⃟𝑰𝒁𝑨𝑺 𝑶⃟𝑹𝑰𝑶𝑵✨☄️
+┃☄️✨Reykers Bot✨☄️
 ┃  
 ┃ 🕐 𝐃𝐚𝐭𝐚 𝐞 𝐡𝐨𝐫𝐚: ${date}
 ┃ 🙂 𝐔𝐬𝐮𝐚́𝐫𝐢𝐨: ${user}
 ┃ 🌎 𝐖𝐚𝐦𝐞: 
 ┃ ${wame}                                       
 ┃
-┣━━ 🤩 𝑹𝑬𝑫𝑬𝑺 𝑺𝑶𝑪𝑰𝑨𝑰𝑺 🤩 ━╮
+┣━━ 🤩 Redes Sociales 🤩 ━╮
 ┃
-┃ 📷 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: @brizasbot01
+┃ 📷 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: @_samuelgaanss
 ┃
 ┃ 🤖𝐆𝐢𝐭𝐡𝐮𝐛:
-┃ 🌐https://suaurl.com/f31687
+┃ 🌐
 ┃
-┃ 🪀𝐆𝐫𝐮𝐩𝐨:
-┃ 🌐https://suaurl.com/Brizas-grupo
 ┃
 ┃ 📹𝐘𝐨𝐮𝐭𝐮𝐛𝐞:
-┃ 🌐https://suaurl.com/c12fe7
+┃ 🌐
 ┃
-┃ 🤑𝐁𝐫𝐢𝐳𝐚𝐬-𝐚𝐩𝐢:
-┃ 🌐https://suaurl.com/e55630
 ┃
-┣━━━⚡ 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙄𝙎 ⚡━━━╮
+┣━━━⚡ Principal ⚡━━━╮
 ┃ ${p}brizasapi
 ┃ ${p}listblockcmd
 ┃ ${p}listpalavra
@@ -44,7 +40,7 @@ return `
 ┃ ${p}blacklist
 ┃ ${p}criador
 ┃ ${p}toimg (leg, resp img)
-┣━━━━✨ 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 ✨━━━━╮
+┣━━━━✨ Sticker ✨━━━━╮
 ┃ ${p}stiker (leg, resp img)
 ┃ ${p}sticker (leg, resp img)
 ┃ ${p}csticker (leg, resp img)
@@ -57,7 +53,7 @@ return `
 ┃ ${p}nfsticker (pack) (author)
 ┃ ${p}nfsticker (pack) (author)
 ┃ ${p}rename (pack) (author)
-┣━━━━😎 𝘾𝙍𝙄𝘼𝘿𝙊𝙍 😎━━━━╮
+┣━━━━😎 Creador 😎━━━━╮
 ┃ ${p}blockcmd (cmd sem prefix)
 ┃ ${p}unblockcmd (cmd sem prefix)
 ┃ ${p}alerta (txt)
@@ -77,7 +73,7 @@ return `
 ┃ ${p}unblock (num)
 ┃ ${p}msginfo
 ┃ ${p}chatinfo
-┣━━━━🗳️ 𝙑𝙊𝙏𝙊 🗳️━━━━╮
+┣━━━━🗳️ Voto 🗳️━━━━╮
 ┃ ${p}votohelp
 ┃ ${p}votoinit
 ┃ ${p}clearvoto
@@ -90,25 +86,25 @@ return `
 ┃ ${p}gpvotostatus
 ┃ ${p}gpvoto
 ┃ ${p}gpvotofinish
-┣━━━🙋‍♂️ 𝘽𝙊𝘼𝙎 𝙑𝙄𝙉𝘿𝘼𝙎 🙋‍♂️━━━╮
+┣━━━🙋‍♂️ Bienvenído 🙋‍♂️━━━╮
 ┃ ${p}byeadd (texto)
 ┃ ${p}welcomeadd (texto)
 ┃ ${p}welcomehelp
-┣━━━━━⏱️ 𝘾𝙊𝙉𝙏𝘼𝘿𝙊𝙍 ⏱️━━━━━╮
+┣━━━━━⏱️ Contador ⏱️━━━━━╮
 ┃ ${p}checkativo (dial)
 ┃ ${p}rankativo
 ┃ ${p}atividade
 ┃ ${p}filtroativo
 ┃ ${p}banativos
-┣━━━━━🔇 𝙈𝙐𝙏𝘼𝙍 🔇━━━━━╮
+┣━━━━━🔇 Mute 🔇━━━━━╮
 ┃ ${p}mute (marcar)
 ┃ ${p}desmute (marcar)
 ┃ ${p}mutados
-┣━━━━━💫 𝙇𝙀𝙑𝙀𝙇 💫━━━━━╮
+┣━━━━━💫 Nivel 💫━━━━━╮
 ┃ ${p}deletelevel
 ┃ ${p}level (n/a, num)
 ┃ ${p}registerlevel
-┣━━━━🎮 𝙂𝘼𝙈𝙀𝙎 𝙓𝙋 🎮━━━━╮
+┣━━━━🎮 Juegos XP 🎮━━━━╮
 ┃ ${p}jogatina (1 or 0)
 ┃ ${p}stealrandom 
 ┃ ${p}steal (dial number)
@@ -119,12 +115,12 @@ return `
 ┃ ${p}roletaneg
 ┃ ${p}roletapos
 ┃ ${p}flip 
-┣━━━━━⏳ 𝙇𝙄𝙈𝙄𝙏𝙀𝙎 ⏳━━━━╮
+┣━━━━━⏳ Límites ⏳━━━━╮
 ┃ ${p}rmlimituser
 ┃ ${p}resetlimit
 ┃ ${p}limitcmd (1 or 0)
 ┃ ${p}mylimit
-┣━━━━━❌ 𝘼𝙉𝙏𝙄 ❌━━━━━╮
+┣━━━━━❌ Anti ❌━━━━━╮
 ┃ ${p}antidoc (1 or 0)
 ┃ ${p}antiloc (1 or 0)
 ┃ ${p}antiimg (1 or 0)
@@ -138,7 +134,7 @@ return `
 ┃ ${p}antifake (1 or 0)
 ┃ ${p}dontback (1 or 0)
 ┃ ${p}antilinkhard (1 or 0)
-┣━━━━👥 𝙂𝙍𝙐𝙋𝙊𝙎 👥━━━╮
+┣━━━━👥 Grupos 👥━━━╮
 ┃ ${p}listfake
 ┃ ${p}listbr
 ┃ ${p}listddd (country code)
@@ -168,32 +164,6 @@ return `
 ┃ ${p}marcar2
 ┃ ${p}marcar3
 ┃ ${p}hidemarcar (txt)
-┣━━━━━━🌈 𝙏𝙏𝙋 🌈━━━━━╮
-┃ ${p}attp (txt)
-┃ ${p}attp2 (txt)
-┃ ${p}attp3 (txt)
-┃ ${p}attp4 (txt)
-┃ ${p}attp5 (txt)
-┃ ${p}attp6 (txt)
-┃ ${p}ttp (txt)
-┃ ${p}ttp2 (txt)
-┃ ${p}ttp3 (txt)
-┃ ${p}ttp4 (txt)
-┃ ${p}ttp5 (txt)
-┃ ${p}ttp6 (txt)
-┣━━━━🎨 𝙀𝙁𝙀𝙄𝙏𝙊𝙎 🎨━━━━╮
-┃ obs: coloque "me"
-┃ ou marque alguém
-┃
-┃ ${p}triggerfig
-┃ ${p}triggered
-┃ ${p}amongus 
-┃ ${p}lisa (txt)
-┃ ${p}sepie 
-┃ ${p}invert
-┃ ${p}greyscale 
-┃ ${p}lgbt 
-┃ ${p}blur
 ┣━━━🖌️ 𝙈𝙊𝙉𝙏𝘼𝙂𝙀𝙉𝙎 🖌️━━╮
 ┃ obs: coloque "me"
 ┃ ou marque alguém
@@ -218,13 +188,13 @@ return `
 ┃ ${p}beatiful
 ┃ ${p}affect
 ┃ ${p}ad
-┣━━💥 𝙍𝙊𝙇𝙀𝙏𝘼 𝙍𝙐𝙎𝙎𝘼 💥━━╮
+┣━━💥 Ruleta Rusa 💥━━╮
 ┃ ${p}helproleta
 ┃ ${p}roletarussahard
 ┃ ${p}roletarussamed
 ┃ ${p}roletarussaeasy
 ┃ ${p}roletarussapac
-┣━#️⃣ 𝙅𝙊𝙂𝙊 𝘿𝘼 𝙑𝙀𝙇𝙃𝘼 #️⃣━╮
+┣━#️⃣ Juego De La Abuela #️⃣━╮
 ┃ ${p}ttt (dificulty)
 ┃ ${p}coord (coordenada)
 ┃ ${p}tttme
@@ -232,7 +202,7 @@ return `
 ┃ ${p}ttthelp
 ┃ ${p}delttc
 ┃ ${p}tictactoe
-┣━━━━━🎥 𝙑𝙄́𝘿𝙀𝙊 🎥━━━━╮
+┣━━━━━🎥 Vída 🎥━━━━╮
 ┃ ${p}bold (txt)
 ┃ ${p}poly (txt)
 ┃ ${p}glowing (txt)
@@ -245,7 +215,7 @@ return `
 ┃ ${p}lentovid (resp video)
 ┃ ${p}togif (resp video)
 ┃ ${p}resizevid (lag) (alt) (resp vid)
-┣━━━━━🎨 𝙇𝙊𝙂𝙊𝙎 🎨━━━━╮
+┣━━━━━🎨 Lógos 🎨━━━━╮
 ┃ ${p}nulis (txt)
 ┃ ${p}undgrass (txt)
 ┃ ${p}love (txt)
@@ -278,7 +248,7 @@ return `
 ┃ ${p}gimage (txt)
 ┃ ${p}whatis (txt)
 ┃ ${p}txt3d (txt)
-┣━━━━━📷 𝙁𝙊𝙏𝙊𝙎 📷━━━━╮
+┣━━━━━📷 Fotos 📷━━━━╮
 ┃ ${p}backremove (leg, resp img)
 ┃ ${p}cropimg (lag) (alt) (resp img)
 ┃ ${p}bwimg (resp img)
@@ -288,42 +258,6 @@ return `
 ┃ ${p}monochromeimg (resp img)
 ┃ ${p}resizeimg (lag) (alt) (resp img)
 ┃ ${p}blurimg (rad) (sig) (resp img)
-┣━━━━🔍 𝙋𝙀𝙎𝙌𝙐𝙄𝙎𝘼 🔎━━━╮
-┃ ${p}pensador (autor)
-┃ ${p}xvideos (name)
-┃ ${p}thumbzilla (name)
-┃ ${p}xanimu (name)
-┃ ${p}xnxx (name)
-┃ ${p}fapster (name)
-┃ ${p}pornhub (name)
-┃ ${p}fortniteshop
-┃ ${p}imagesearch (resp img)
-┃ ${p}map (name)
-┃ ${p}brainlysrc (name)
-┃ ${p}search (name)
-┃ ${p}searchv2 (name)
-┃ ${p}ssweb (url)
-┃ ${p}mediafire (url)
-┃ ${p}mob
-┃ ${p}minecraft
-┃ ${p}covidbrasil
-┃ ${p}covidmundo
-┃ ${p}foxnews
-┃ ${p}lofi
-┃ ${p}boy
-┃ ${p}girl
-┃ ${p}egirl
-┃ ${p}eboy
-┃ ${p}pinterest (name)
-┃ ${p}wallpaper
-┃ ${p}fuckmylife
-┃ ${p}belle
-┃ ${p}saycat
-┃ ${p}biblia
-┃ ${p}playstore (name app)
-┃ ${p}happymod (name app)
-┃ ${p}ip (ip)
-┃ ${p}gimage (name)
 ┣━━⏳ 𝘾𝙊𝙉𝙏𝘼𝙂𝙀𝙈 ⏳━━╮
 ┃ ${p}halloween (ano)
 ┃ ${p}kidday (ano)
@@ -340,36 +274,14 @@ return `
 ┃ ${p}pascoa (ano)
 ┃ ${p}natal (ano)
 ┃ ${p}anonovo
-┣━━━━━😈 𝙋𝙊𝙍𝙉𝙊 😈━━━━╮
-┃ ${p}packmega18
-┃ ${p}nhentai ❮code❯
-┃ ${p}randomhentai
-┃ ${p}nsfwblowjob
-┃ ${p}nsfwneko
-┃ ${p}nsfwtrap
-┃ ${p}nsfw (1 or 0)
-┃ ${p}anal
-┃ ${p}cum
-┃ ${p}yuri
-┃ ${p}hentainekogif
-┃ ${p}futanari
-┃ ${p}nsfwfeet
-┃ ${p}nsfwfeetgif
-┃ ${p}girlmasturbate
-┃ ${p}girlmasturbategif
-┃ ${p}lesbian
-┃ ${p}eroyuri
-┃ ${p}eroneko
-┃ ${p}erokitsune
-┃ ${p}spank
-┣━━━━🗣️ 𝙑𝙊𝙕 𝙈𝙊𝘿 🗣️━━━━╮
+┣━━━━🗣️ Voz Mod 🗣️━━━━╮
 ┃ ${p}esquilo (resp audio)
 ┃ ${p}grave (resp audio)
 ┃ ${p}estourar (resp audio)
 ┃ ${p}rapidoaudio (resp audio)
 ┃ ${p}lentoaudio (resp audio)
 ┃ ${p}bass (resp audio)
-┣━━━━━🎵 𝘼𝙐𝘿𝙄𝙊 🎵━━━╮
+┣━━━━━🎵 Áudio 🎵━━━╮
 ┃ ${p}shazam (resp audio)
 ┃ ${p}gtts (la) (txt)
 ┃ ${p}playlist
@@ -381,7 +293,7 @@ return `
 ┃ ${p}ytsrc (name)
 ┃ ${p}ytmp4 (yt url)
 ┃ ${p}ytmp3 (yt url)
-┣━━━⚙️ 𝙂𝙀𝙍𝘼𝘿𝙊𝙍 ⚙️━━━━╮
+┣━━━⚙️ Generador ⚙️━━━━╮
 ┃ ${p}fancy (txt)
 ┃ ${p}gpessoa
 ┃ ${p}gendereco
@@ -394,7 +306,7 @@ return `
 ┃ ${p}ddd (ddd)
 ┃ ${p}cep (cep)
 ┃ ${p}gprocesso
-┣━━━━━━🧾 𝙏𝙀𝙓𝙏𝙊 🧾━━━━╮
+┣━━━━━━🧾 Texto 🧾━━━━╮
 ┃ ${p}nameninja (name)
 ┃ ${p}fakeidentity
 ┃ ${p}installbot
@@ -407,30 +319,20 @@ return `
 ┃ ${p}frase
 ┃ ${p}wppim
 ┃ ${p}db
-┣━━━━━🇯🇵 𝘼𝙉𝙄𝙈𝙀𝙎 🇯🇵━━━━╮
-┃ ${p}randomanime
-┃ ${p}randomkiss
-┃ ${p}randomhug
-┃ ${p}nekoanime
-┃ ${p}wait (cap, resp vid)
-┃ ${p}slap
-┃ ${p}kemonomimi
-┣━━━👾 𝘾𝙊𝘿𝙄𝙂𝙊𝙎 👾━━━╮
+┣━━━👾 Códigos 👾━━━╮
 ┃ ${p}txtomorse (txt)
 ┃ ${p}morsetotxt (txt)
 ┃ ${p}ebinary (txt)
 ┃ ${p}dbinary (txt)
-┣━━━━🏆 𝙍𝘼𝙉𝙆𝙄𝙉𝙂𝙎 🏆━━━╮
+┣━━━━🏆 Rank Rey 🏆━━━╮
 ┃ ${p}ranklindo
-┃ ${p}rankfeio
+┃ ${p}rankfeo
 ┃ ${p}rankgado
 ┃ ${p}rankcomu
 ┃ ${p}ranknazi
 ┃ ${p}rankqi
 ┃ ${p}rankfofo
-┃ ${p}rankotaku
-┃ ${p}rankgay
-┣━━━🔮 𝙋𝙍𝙀𝙑𝙄𝙎𝙊𝙀𝙎 🔮━━╮
+┣━━━🔮 Pronósticos 🔮━━╮
 ┃ ${p}ship (num1) (num2)
 ┃ ${p}corno (num1)
 ┃ ${p}nazista (num1)
@@ -445,7 +347,7 @@ return `
 ┃ ${p}gostoso (num1)
 ┃ ${p}gostosa (num1)
 ┃ ${p}randomship (n1, n/a)
-┣━━━━📱 𝙌𝙍 𝘾𝙊𝘿𝙀 📱━━━━╮
+┣━━━━📱 QR Code 📱━━━━╮
 ┃ ${p}qrcode (txt)
 ┃ ${p}qrcodebg (txt)
 ┃ ${p}qrcodegb (txt)
@@ -453,29 +355,11 @@ return `
 ┃ ${p}qrcodebb1 (txt)
 ┃ ${p}qrcoderb (txt)
 ┃ ${p}qrcodebr (txt)
-┣━━━━🕵️ 𝙎𝙏𝘼𝙇𝙆𝙀𝙍 🕵️━━━╮
+┣━━━━🕵️ Stalker 🕵️━━━╮
 ┃ ${p}instastalk (name)
 ┃ ${p}githubstalk (name)
 ┃ ${p}tiktokstalk (name)
-┣━━━😳 𝙄𝙉𝙏𝙀𝙍𝘼𝘾̧𝘼̃𝙊 😳━━━╮
-┃ ${p}vsf
-┃ ${p}botfofo
-┃ ${p}pedro
-┃ ${p}botgostoso
-┃ ${p}botviado
-┃ ${p}botbaianor
-┃ ${p}botfdp
-┃ ${p}botfeio
-┃ ${p}botputa
-┃ ${p}botgay
-┃ ${p}botcorno
-┃ ${p}vtmnc
-┃ ${p}bomdia
-┃ ${p}boatarde
-┃ ${p}boanoite
-┃ ${p}lindo
-┃ ${p}cheguei
-┣━━━━😝 𝘿𝙄𝙑𝙀𝙍𝙎𝘼̃𝙊 😝━━━╮
+┣━━━━😝 Diversión 😝━━━╮
 ┃ ${p}papel
 ┃ ${p}pedra
 ┃ ${p}tesoura
@@ -483,7 +367,7 @@ return `
 ┃ ${p}meme
 ┃ ${p}memeindo
 ┃ ${p}darkjokes
-┣━━━━💱 𝙈𝙊𝙀𝘿𝘼 💱━━━━━╮
+┣━━━━💱 Moneda 💱━━━━━╮
 ┃ ${p}dolarhoje
 ┃ ${p}rublohoje
 ┃ ${p}ienehoje
